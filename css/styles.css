@@ -1,0 +1,245 @@
+/* <!--Paso 3--> Reiniciar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo Menú */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+/* Clases Generales */
+
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+ /* Navbar */
+ #navbar {
+   background: #510098;
+   color: #ff;
+   overflow: auto;
+ }
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: #3d8e33;
+  background: #FFF;
+  color: #8E3384; */texto de encabezado*/
+}
+
+/*------<!--Paso 5--> */
+.text-primary {
+  color:#5BBF21;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #5BBF21;
+}
+
+
+
+/* Paso 6 Bienvenida */
+
+#welcome {
+  background: url(':/imagenes/welcome_LittleOnes.jpg') no-repeat center center/cover;
+  height: 1200px;
+}
+
+#welcome .welcome-content {
+  color: #E6EB38;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#welcome .welcome-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/*----- pASO 8 */
+.btn-light {
+  background: #f4f4f4;
+  color: #215b33;
+}
+
+.bg-dark {
+  background: #580098; /*color de box 2*/
+  color: #ff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #FF1493; /*color de texto de caja izq y derecha*/
+}
+
+.bg-primary {
+  background: #5BBF21;
+  color: #215b33;
+}
+/* PASO 9 Información Principal */
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-content {
+  float: center;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px
+}
+/*PASO 11*/
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+/* PASO 13---*/
+.clr {
+  clear: both;
+}
+
+/* Pie de página */
+
+#main-footer {
+  text-align: center;
+  background: #510098;
+  color: #ff;
+  padding: 20px;
+}
+
+/*---- PASO 15*/
+.l-heading {
+  font-size: 20px;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* PASO 16*/
+/* Acerca de */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Forma de Contacto */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+
+/* La propiedad focus se presenta cuando el usuario selecciona un input en este caso el resultado será un cambio de color en el borde de los inputs y de los textarea al momento de seleccionarlos */
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #5BBF21;
+}
